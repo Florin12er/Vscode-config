@@ -1,0 +1,2 @@
+* VS code minimal config
+*** this is my minimal config file for vscode enjoy!!!
