@@ -8,30 +8,59 @@
   },
   "vim.insertModeKeyBindingsNonRecursive": [
     {
-      "before": ["<C-i>"],
-      "after": ["=", ">", " "]
+      "before": [
+        "<C-i>"
+      ],
+      "after": [
+        "=",
+        ">",
+        " "
+      ]
     },
     {
-      "before": ["j", "j"],
-      "after": ["<escape>"]
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<escape>"
+      ]
     }
   ],
   "vim.normalModeKeyBindings": [
     {
-      "before": [";"],
-      "after": [":"]
+      "before": [
+        ";"
+      ],
+      "after": [
+        ":"
+      ]
     },
     {
-      "before": ["<C-n>"],
-      "commands": [":nohl"]
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
     },
     {
-      "before": ["leader", "w"],
-      "commands": ["workbench.action.files.save"]
+      "before": [
+        "leader",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
     },
     {
-      "before": ["leader", "c"],
-      "commands": ["workbench.action.closeActiveEditor"]
+      "before": [
+        "leader",
+        "c"
+      ],
+      "commands": [
+        "workbench.action.closeActiveEditor"
+      ]
     }
   ],
   "editor.roundedSelection": false,
@@ -111,7 +140,9 @@
   "extensions.autoUpdate": true,
   "go.lintTool": "golint",
   "go.formatTool": "goimports",
-  "go.lintFlags": ["--fast"],
+  "go.lintFlags": [
+    "--fast"
+  ],
   "go.toolsEnvVars": {
     "GO111MODULE": "on"
   },
@@ -147,7 +178,9 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "python.jediEnabled": false,
   "stylelint.enable": true,
-  "stylelint.additionalDocumentSelectors": ["js"],
+  "stylelint.additionalDocumentSelectors": [
+    "js"
+  ],
   "css.validate": false,
   "scss.validate": false,
   "rust-analyzer.enableEnhancedTyping": false,
@@ -166,12 +199,11 @@
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "git.openRepositoryInParentFolders": "never",
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
+  "editor.hideCursorInOverviewRuler": true,
   "notebook.scrolling.revealNextCellOnExecute": "none",
-  "window.customTitleBarVisibility": "auto",
-  "workbench.activityBar.location": "hidden",
   "window.density.editorTabHeight": "compact",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
@@ -183,8 +215,8 @@
   "workbench.sideBar.location": "right",
   "window.menuBarVisibility": "toggle",
   "editor.renderWhitespace": "none",
-  "editor.stickyScroll.enabled": false,
-  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.editor.editorActionsLocation": "titleBar",
   "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "hidden"
 }
