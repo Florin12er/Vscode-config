@@ -1,6 +1,6 @@
 {
-  "workbench.colorTheme": "Nord",
-  "workbench.iconTheme": "icons",
+  "workbench.colorTheme": "wallbash",
+  "workbench.iconTheme": "file icons",
   "vim.hlsearch": true,
   "vim.leader": "<space>",
   "vim.handleKeys": {
